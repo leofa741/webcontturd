@@ -214,6 +214,7 @@ h6 {
 	padding: 0px !important;
 }
 .sub-title-paragraph {
+	margin: 0px auto 20px;
 }
 .sub-title-paragraph h4 {
 	margin-bottom: 5px;
@@ -222,11 +223,67 @@ h6 {
 	color:#ffaf53;
 }
 .sub-title-paragraph p {
-	padding-top: 20px;
+	padding-top: 5px;
 	font-weight: 300;
 	font-size: 14px;
-	line-height: 25px;
+	line-height: 21px;
 }
+.section-img-1{
+	background:url(images/control-gestion.png);
+	background-size:cover;
+	background-position:center;
+	height: 500px;
+	width: 150%;
+	margin-left: 15px;
+	text-align: center;
+}
+.section-img-2{
+	background:url(images/impositivos.jpg);
+	background-size:cover;
+	background-position:center;
+	height: 500px;
+	width: 150%;
+	margin-left: -195px;
+	text-align: center;
+}
+.section-img-3{
+	background:url(images/sociedad.jpg);
+	background-size:cover;
+	background-position:center;
+	height: 500px;
+	width: 150%;
+	margin-left: 15px;
+	text-align: center;
+}
+.section-img-4{
+	background:url(images/laboral-y-previsional.jpg);
+	background-size:cover;
+	background-position:center;
+	height: 500px;
+	width: 150%;
+	margin-left: 15px;
+	text-align: center;
+}
+@media (max-width: 991px) {
+	.section-img-1{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.section-img-2{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.section-img-3{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.section-img-4{
+		width: 100%;
+		margin-left: 0px;
+	}
+}
+
+
 .anchor-btn {
 	background: #ffaf53;
 	padding: 10px 20px;
@@ -567,12 +624,7 @@ h6 {
 	padding: 150px 0px 100px;
 }
 }
-.flotante {
-    display:scroll;
-        position:fixed;
-        bottom:540px;
-      left:10px;
-}
+
 
 .flotante-1 {
     display:scroll;
@@ -580,17 +632,25 @@ h6 {
         bottom:120px;
       right:10px;
 }
+.flotante-2 {
+    display:scroll;
+        position:fixed;
+        bottom:180px;
+      right:10px;
+}
+
+.flotante {
+    display:scroll;
+        position:fixed;
+		bottom:300px;
+		right:10px;
+}
 .flotante2 {
     display:scroll;
         position:fixed;
-        bottom:500px;
-      left:10px;
-}
-
-.flotante2-1 {
-    display:scroll;
-        position:fixed;
-        bottom:320px;
+        bottom:240px;
       right:10px;
 }
+
+
 
