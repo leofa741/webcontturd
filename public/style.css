@@ -149,15 +149,15 @@ h6 {
 	max-width: 670px
 }
 .banner-btn {
-	background: #ab2f52;
+	background: #2f25b9;
 	padding: 12px 45px;
 	font-size: 15px;
 	border-radius: 30px;
 	margin-top: 30px;
 }
 .banner-btn:hover {
-	background: #ffffff;
-	color:#ab2f52;
+	background: #4574f5;
+	color:#1d10d8;
 }
 .section-padding {
 	padding: 100px 0px;
@@ -611,7 +611,7 @@ h6 {
 	-webkit-transform: scale(0.75) !important;
 }
 .banner h1 {
-	font-size: 15px;
+	font-size: 10px;
 }
 .section-title p {
 	width: 100%;
