@@ -264,6 +264,18 @@ h6 {
 	margin-left: 15px;
 	text-align: center;
 }
+
+.section-img-5{
+	background:url(images/control-gestion.png);
+	background-size:cover;
+	background-position:center;
+	height: 500px;
+	width: 150%;
+	margin-left: 15px;
+	text-align: center;
+}
+
+
 @media (max-width: 991px) {
 	.section-img-1{
 		width: 100%;
@@ -278,6 +290,10 @@ h6 {
 		margin-left: 0px;
 	}
 	.section-img-4{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.section-img-5{
 		width: 100%;
 		margin-left: 0px;
 	}
